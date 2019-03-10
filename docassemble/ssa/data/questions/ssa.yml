@@ -1,0 +1,19 @@
+---
+comment: |
+  Contains the files needed for validating and auto-formatting SSNs
+---
+modules:
+  - docassemble.ssa.ssa
+---
+features:
+  javascript: docassemble.ssa:ssa.js
+---
+comment: |
+  Using datatype: ssn will provide a hook for ssa.js to turn on input auto-formatting
+generic object: Individual
+question: |
+  What is ${x.possessive('Social Security Number')}?
+fields:
+  - no label: x.ssn
+    datatype: ssn
+    validate: is_valid_ssn
