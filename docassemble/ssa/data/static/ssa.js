@@ -1,6 +1,7 @@
 /*
  Use auto-formatting for any variables with datatype: ssn
 */
+$(document).on('daPageLoad', function(){
 inputs = $("input[type='ssn']");
 
 for (var i=0; i<inputs.length; i++) {
@@ -25,4 +26,5 @@ for (var i=0; i<inputs.length; i++) {
       newVal += val;
       this.value = newVal.substring(0, 11);
       };    
-}
+  }
+});
