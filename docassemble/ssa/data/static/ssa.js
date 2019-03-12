@@ -1,6 +1,7 @@
 /*
  Use auto-formatting for any variables with datatype: ssn
 */
+
 $(document).on('daPageLoad', function(){
 inputs = $("input[type='ssn']");
 

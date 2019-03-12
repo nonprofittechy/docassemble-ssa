@@ -43,7 +43,7 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
     return out
 
 setup(name='docassemble.ssa',
-      version='0.0.3',
+      version='0.0.4',
       description=('Shared code for Social Security interviews'),
       long_description=u'# docassemble.ssa\r\n\r\nShared code for Social Security interviews\r\n\r\n## Author\r\n\r\nQuinten Steenhuis, qsteenhuis@gmail.com\r\n\r\n',
       long_description_content_type='text/markdown',
