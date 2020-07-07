@@ -1,4 +1,4 @@
-from docassemble.base.util import validation_error, Address, DAObject, DAList, text_type, Person, title_case
+from docassemble.base.util import validation_error, Address, DAObject, DAList, Person, title_case
 import re
 import requests
 
